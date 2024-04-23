@@ -21,7 +21,7 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.spatial.transform import Rotation as Rot
-from utils.angle import angle_mod
+from Utils.angle.angle import angle_mod
 
 #  Simulation parameter
 Q_sim = np.diag([0.2, np.deg2rad(1.0)]) ** 2
